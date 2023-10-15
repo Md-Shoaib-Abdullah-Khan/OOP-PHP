@@ -56,7 +56,7 @@ class Book{
         else return false;
     }
 
-    public function addCopy($num) : bool{
+    public function addCopy(int $num) : void{
         $this->available = $this->available + $num;
     }
 
